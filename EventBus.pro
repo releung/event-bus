@@ -1,11 +1,12 @@
 
-LIBS += -lboost_thread \
-        -lboost_system \
-        -lboost_filesystem
+#LIBS += -lboost_thread \
+#        -lboost_system \
+#        -lboost_filesystem
 
-INCLUDEPATH += /usr/local/include
+#INCLUDEPATH += /usr/local/include
 
-CONFIG += static
+#CONFIG += static
+CONFIG += shared
 
 QT += core 
 
